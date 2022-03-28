@@ -35,7 +35,7 @@ pip install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com str
 ## 项目文件目录
 
 * `dataset`：数据集，应将同一人的训练图片应放到“`dataset\姓名`”目录下。
-* `facenet.h5`：训练的模型。
+* `facenet.h5`：训练的模型。在[谷歌硬盘](https://drive.google.com/open?id=1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn)model文件夹中下载`facenet_keras.h5`并重命名为`facenet.h5`。
 * `trainer.py`：训练数据集的代码。
 * `recognizer.py`：部署Streamlit、实现口罩人脸识别的代码。
 
